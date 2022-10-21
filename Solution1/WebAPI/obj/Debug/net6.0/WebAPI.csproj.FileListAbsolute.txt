@@ -31,3 +31,4 @@ C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\D
 C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Application.pdb
 C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\FileData.pdb
 C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Domain.pdb
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\data.json
