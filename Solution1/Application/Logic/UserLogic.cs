@@ -28,7 +28,25 @@ public class UserLogic: IUserLogic
     
         return created;
     }
-    
+
+    public bool GetAsync(SearchUserParametersDto searchParameters)
+    {
+        
+        if (userDao.GetAsync(searchParameters) == null)
+        {
+            Console.WriteLine("NO");
+        }
+        else
+        {
+            Console.WriteLine("YES");
+
+        }
+
+        Console.WriteLine(userDao.GetAsync(searchParameters));
+
+        return userDao.GetAsync(searchParameters)==null;
+    }
+
     private static void ValidateData(UserCreationDto userToCreate)
     {
         string userName = userToCreate.UserName;

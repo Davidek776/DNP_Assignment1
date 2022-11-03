@@ -32,3 +32,13 @@ C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\D
 C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\FileData.pdb
 C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Domain.pdb
 C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\data.json
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dávid\RiderProjects\Assignment1\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

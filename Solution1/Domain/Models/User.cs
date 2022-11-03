@@ -8,7 +8,7 @@ public class User
         this.password = password;
     }
 
-    public int Id { get; set; }
+
     public string UserName { get; set; }
     public string password { get; set; }
 }
