@@ -18,7 +18,7 @@ public class PostHttpClient : IPostService
 
     public async Task<Post> Create(PostCreationDto dto)
     {
-        
+
         string subFormAsJson = JsonSerializer.Serialize(dto);
         StringContent content = new(subFormAsJson, Encoding.UTF8, "application/json");
 
@@ -36,8 +36,8 @@ public class PostHttpClient : IPostService
         })!;
         return post;
     }
-    
-    public async Task<ICollection<Post>> GetAsync(string? title)
+
+    public async Task<ICollection<Post>> GetAllAsync()
     {
         HttpResponseMessage response = await client.GetAsync("/Post");
         string content = await response.Content.ReadAsStringAsync();
@@ -52,4 +52,26 @@ public class PostHttpClient : IPostService
         })!;
         return posts;
     }
+
+    public async Task<Post> GetSingleAsync(int id)
+    {
+        
+        HttpResponseMessage response = await client.GetAsync("https://localhost:7132/post{id}");
+        string content = await response.Content.ReadAsStringAsync();
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception(content);
+
+        }
+
+        Post post = JsonSerializer.Deserialize<Post>(content,
+            new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            }
+        )!;
+        return post;
+    }
+    
+    
 }

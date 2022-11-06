@@ -2,6 +2,7 @@
 @using Domain.Models
 @using HttpClients.ClientInterfaces
 @inject IPostService postService
+@inject NavigationManager navMgr
 <h3>ViewAllPosts</h3>
 <div>
     <button @onclick="LoadAllPosts">Load</button>
@@ -26,7 +27,7 @@ else
         @foreach (var item in posts)
         {
             <tr>
-                <td>@item.title</td>
+                <td @onclick="@(() => navMgr.NavigateTo($"/ViewSinglePost/{item.Id}"))">@item.title</td>
             </tr>
         }
         </tbody>
@@ -45,7 +46,7 @@ else
     {
         try
         {
-            posts = await postService.GetAsync(null);
+            posts = await postService.GetAllAsync();
         }
         catch (Exception e)
         {
@@ -53,4 +54,6 @@ else
             msg = e.Message;
         }
     }
+    
+   
 }
