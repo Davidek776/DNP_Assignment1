@@ -835,3 +835,4 @@ C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\BlazorW
 C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\BlazorWasm\bin\Debug\net6.0\HttpClients.pdb
 C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\BlazorWasm\obj\Debug\net6.0\build-gz\oLbfVsba.gz
 C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\BlazorWasm\obj\Debug\net6.0\build-gz\G+px8In0.gz
+C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\BlazorWasm\obj\Debug\net6.0\scopedcss\Pages\ViewAllPosts.razor.rz.scp.css
