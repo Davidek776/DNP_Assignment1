@@ -17,11 +17,11 @@ public class PostController: ControllerBase
     }
     
     [HttpPost]
-    public async Task<ActionResult<Post>> CreateAsync([FromQuery] string? title, [FromQuery] string? body)
+    public async Task<ActionResult<Post>> CreateAsync(PostCreationDto dto)
     {
         try
         {
-            PostCreationDto dto = new PostCreationDto(title, body);
+            // PostCreationDto dto = new PostCreationDto(title, body);
             Post post = await postLogic.CreateAsync(dto);
             return Created($"/posts/{post.Id}", post);
         }

@@ -58,6 +58,13 @@ public class AuthController : ControllerBase
         return serializedToken;
     }
     
+    [HttpPost, Route("register")]
+    public async Task<ActionResult> Register([FromBody] User user)
+    {
+        await authService.RegisterUser(user);
+        return Ok();
+    }
+    
     [HttpPost, Route("login")]
     public async Task<ActionResult> Login([FromBody] UserLoginDto userLoginDto)
     {

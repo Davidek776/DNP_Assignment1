@@ -1,0 +1,21 @@
+﻿@* @page "/ViewAllPosts" *@
+@* @using Domain.Models *@
+@* <h3>ViewAllPosts</h3> *@
+@* *@
+@* @code { *@
+@*     private IEnumerable<Post>? posts; *@
+@*     private string msg = ""; *@
+@* *@
+@*     private async Task LoadPosts() *@
+@*     { *@
+@*         try *@
+@*         { *@
+@*             posts = await postService.GetAsync(null, null, null, null); *@
+@*         } *@
+@*         catch (Exception e) *@
+@*         { *@
+@*             Console.WriteLine(e); *@
+@*             msg = e.Message; *@
+@*         } *@
+@*     } *@
+@* } *@
