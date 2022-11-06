@@ -40,11 +40,11 @@ public class PostFileDao : IPostDao
         return Task.FromResult(posts);
     }
 
-    public Task<Post?> GetByPostIdAsync(int id)
+
+    
+    public Task<Post?> GetByIdAsync(int Id)
     {
-        Post? existing = context.Posts.FirstOrDefault(p =>
-            p.Id==id
-        );
+        Post? existing = context.Posts.FirstOrDefault(p => p.Id == Id);
         return Task.FromResult(existing);
     }
 }

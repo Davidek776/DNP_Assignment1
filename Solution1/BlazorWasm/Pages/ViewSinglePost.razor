@@ -1,6 +1,7 @@
 ﻿@page "/ViewSinglePost/{Id:int}"
 @using Domain.Models
 @using HttpClients.ClientInterfaces
+@using Domain.DTOs
 @inject IPostService postService
 
   @if (post == null)
@@ -16,6 +17,8 @@
           <thead>
           <tr>
               <th>Title</th>
+              <th>Body</th>
+
           </tr>
           </thead>
           <tbody>
@@ -32,7 +35,7 @@
     [Parameter]
     public int Id { get; set; }
 
-    public Post? post;
+    public PostBasicDto post;
     
    
     

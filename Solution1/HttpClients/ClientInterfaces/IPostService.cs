@@ -9,5 +9,5 @@ public interface IPostService
     Task<ICollection<Post>> GetAllAsync(
         
     );
-    Task<Post> GetSingleAsync(int id);
+    Task<PostBasicDto> GetSingleAsync(int id);
 }

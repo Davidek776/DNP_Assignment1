@@ -7,7 +7,9 @@ public interface IPostDao
 {
     Task<Post> CreateAsync(Post post);
     
-    Task<Post?> GetByPostIdAsync(int id);
+  
     Task<IEnumerable<Post>> GetAllPostsAsync();
+    Task<Post?> GetByIdAsync(int Id);
+
 
 }
