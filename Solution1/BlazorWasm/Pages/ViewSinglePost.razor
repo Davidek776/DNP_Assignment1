@@ -11,39 +11,47 @@
 
   else
   {
-      <h3>ViewSinglePost</h3>
-
-      <table class="table">
-          <thead>
-          <tr>
-              <th>Title</th>
-              <th>Body</th>
-
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-              <td >@post.title</td>
-              <td >@post.body</td>
-          </tr>
-          }
-          </tbody>
-      </table>
-  }
+      <h2>ViewSinglePost</h2>
+      <div class="title-row">
+          <h2>Title: </h2>
+          <h4>@post.title</h4>
+      </div>
+      <div class="body-row">
+          <h2>Body: </h2>
+          <h4>@post.body</h4>
+      </div>
+      //     @* <table class="table"> *@
+      //     @*     <thead> *@
+      //     @*     <tr> *@
+      //     @*         <th>Title</th> *@
+      //     @*         <th>Body</th> *@
+      //     @* *@
+      //     @*     </tr> *@
+      //     @*     </thead> *@
+      //     @*     <tbody> *@
+      //     @*     <tr> *@
+      //     @*         <td >@post.title</td> *@
+      //     @*         <td >@post.body</td> *@
+      //     @*     </tr> *@
+      //     @*      *@
+      //     @*     </tbody> *@
+      //     @* </table> *@
+      }
 
 @code {
+
     [Parameter]
     public int Id { get; set; }
 
     public PostBasicDto post;
-    
-   
-    
+
+
+
     private string msg = "";
-    
+
     protected override async Task OnInitializedAsync()
     {
-        
+
         try
         {
             post = await postService.GetSingleAsync(Id);
@@ -53,8 +61,9 @@
             Console.WriteLine(e);
             msg = e.Message;
         }
-    } 
-    
+    }
+
 
 
 }
+  

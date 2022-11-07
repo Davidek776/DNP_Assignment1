@@ -30,16 +30,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dávid/RiderProjects/Assignment1/Try2/DNP_Assignment1/Solution1/BlazorWasm/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Dávid/RiderProjects/Assignment1/Try2/DNP_Assignment1/Solution1/BlazorWasm/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dávid/RiderProjects/Assignment1/Try2/DNP_Assignment1/Solution1/BlazorWasm/Pages/ViewSinglePost.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1NpbmdsZVBvc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dávid/RiderProjects/Assignment1/Try2/DNP_Assignment1/Solution1/BlazorWasm/Shared/SurveyPrompt.razor]
@@ -61,6 +53,10 @@ build_metadata.AdditionalFiles.CssScope = b-lhd5b4yoyf
 [C:/Users/Dávid/RiderProjects/Assignment1/Try2/DNP_Assignment1/Solution1/BlazorWasm/Pages/ViewAllPosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0FsbFBvc3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-tqr6ta9nri
+
+[C:/Users/Dávid/RiderProjects/Assignment1/Try2/DNP_Assignment1/Solution1/BlazorWasm/Pages/ViewSinglePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1NpbmdsZVBvc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-c3bs9rkxfr
 
 [C:/Users/Dávid/RiderProjects/Assignment1/Try2/DNP_Assignment1/Solution1/BlazorWasm/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
