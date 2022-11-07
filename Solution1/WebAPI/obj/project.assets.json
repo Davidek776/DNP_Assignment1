@@ -312,6 +312,19 @@
         "runtime": {
           "bin/placeholder/FileData.dll": {}
         }
+      },
+      "HttpClients/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HttpClients.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HttpClients.dll": {}
+        }
       }
     }
   },
@@ -901,12 +914,18 @@
       "type": "project",
       "path": "../FileData/FileData.csproj",
       "msbuildProject": "../FileData/FileData.csproj"
+    },
+    "HttpClients/1.0.0": {
+      "type": "project",
+      "path": "../HttpClients/HttpClients.csproj",
+      "msbuildProject": "../HttpClients/HttpClients.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Application >= 1.0.0",
       "FileData >= 1.0.0",
+      "HttpClients >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.10",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -941,6 +960,9 @@
             },
             "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Try2\\DNP_Assignment1\\Solution1\\FileData\\FileData.csproj": {
               "projectPath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Try2\\DNP_Assignment1\\Solution1\\FileData\\FileData.csproj"
+            },
+            "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Try2\\DNP_Assignment1\\Solution1\\HttpClients\\HttpClients.csproj": {
+              "projectPath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Try2\\DNP_Assignment1\\Solution1\\HttpClients\\HttpClients.csproj"
             }
           }
         }

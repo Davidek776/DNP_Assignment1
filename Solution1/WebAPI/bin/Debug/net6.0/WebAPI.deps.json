@@ -10,6 +10,7 @@
         "dependencies": {
           "Application": "1.0.0",
           "FileData": "1.0.0",
+          "HttpClients": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.10",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -211,6 +212,14 @@
         "runtime": {
           "FileData.dll": {}
         }
+      },
+      "HttpClients/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "HttpClients.dll": {}
+        }
       }
     }
   },
@@ -385,6 +394,11 @@
       "sha512": ""
     },
     "FileData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HttpClients/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

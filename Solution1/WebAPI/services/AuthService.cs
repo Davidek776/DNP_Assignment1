@@ -1,25 +1,29 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Domain.DTOs;
 using Domain.Models;
+using HttpClients.ClientInterfaces;
+using HttpClients.Implementations;
+
 
 namespace WebAPI.services;
 
 public class AuthService : IAuthService
 {
+
+    private IEnumerable<User> users;
+  
+    private IUserService userService = new UserHttpClient(new HttpClient());
     
-    private readonly IList<User> users = new List<User>()
-    {
-        new User("admin","adminpassword"),
-        new User("user","userpassword")
-    };
     
 
-    
-
-    public Task<User> ValidateUser(string username, string password)
+    public async Task<User> ValidateUser(string username, string password)
     {
-        User? existingUser = users.FirstOrDefault(u => 
+
+        users = await userService.GetUsers();
+
+        User? existingUser = users.FirstOrDefault(u =>
             u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
-        
+
         if (existingUser == null)
         {
             throw new Exception("User not found");
@@ -30,7 +34,7 @@ public class AuthService : IAuthService
             throw new Exception("Password mismatch");
         }
 
-        return Task.FromResult(existingUser);
+        return await Task.FromResult(existingUser);
     }
 
   
@@ -38,28 +42,25 @@ public class AuthService : IAuthService
     public Task RegisterUser(User user)
     {
 
-        if (string.IsNullOrEmpty(user.UserName))
-        {
-            throw new ValidationException("Username cannot be null");
-        }
-
-        if (string.IsNullOrEmpty(user.password))
-        {
-            throw new ValidationException("Password cannot be null");
-        }
-        // Do more user info validation here
-        
-        // save to persistence instead of list
-        
-        users.Add(user);
+        // if (string.IsNullOrEmpty(user.UserName))
+        // {
+        //     throw new ValidationException("Username cannot be null");
+        // }
+        //
+        // if (string.IsNullOrEmpty(user.password))
+        // {
+        //     throw new ValidationException("Password cannot be null");
+        // }
+        // // Do more user info validation here
+        //
+        // // save to persistence instead of list
+        //
+        // users.Add(user);
         
         return Task.CompletedTask;
     }
     
-    public Task<User> GetUser(string username, string password)
-    {
-        throw new NotImplementedException();
-    }
+   
     
     
 }

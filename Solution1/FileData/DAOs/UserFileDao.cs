@@ -15,14 +15,14 @@ public class UserFileDao: IUserDao
     
     public Task<User> CreateAsync(User user)
     {
-        // int userId = 1;
-        // if (context.Users.Any())
-        // {
-        //     userId = context.Users.Max(u => u.Id);
-        //     userId++;
-        // }
-        //
-        // user.Id = userId;
+        int userId = 1;
+        if (context.Users.Any())
+        {
+            userId = context.Users.Max(u => u.Id);
+            userId++;
+        }
+        
+        user.Id = userId;
 
         context.Users.Add(user);
         context.SaveChanges();
@@ -33,19 +33,13 @@ public class UserFileDao: IUserDao
     
     public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
     {
-        IEnumerable<User> result = context.Users.AsEnumerable();
-
-        if (searchParameters.Username != null)
+        IEnumerable<User> users = context.Users.AsEnumerable();
+        if (searchParameters.UsernameContains != null)
         {
-            result = result.Where(user => user.UserName == searchParameters.Username);
-        }
-        
-        if (searchParameters.password != null)
-        {
-            result = result.Where(user => user.password == searchParameters.password);
+            users = context.Users.Where(u => u.UserName.Contains(searchParameters.UsernameContains, StringComparison.OrdinalIgnoreCase));
         }
 
-        return Task.FromResult(result);
+        return Task.FromResult(users);
     }
 
     public Task<User?> GetByUsernameAsync(string userName)

@@ -22,23 +22,23 @@ public class JwtAuthService : IAuthService
             Username = username,
             Password = password
         };
-
+        
         string userAsJson = JsonSerializer.Serialize(userLoginDto);
         StringContent content = new(userAsJson, Encoding.UTF8, "application/json");
-
+        
         HttpResponseMessage response = await client.PostAsync("https://localhost:7132/auth/login", content);
         string responseContent = await response.Content.ReadAsStringAsync();
-
+        
         if (!response.IsSuccessStatusCode)
         {
             throw new Exception(responseContent);
         }
-
+        
         string token = responseContent;
         Jwt = token;
-
+        
         ClaimsPrincipal principal = CreateClaimsPrincipal();
-
+        
         OnAuthStateChanged.Invoke(principal);
     }
 

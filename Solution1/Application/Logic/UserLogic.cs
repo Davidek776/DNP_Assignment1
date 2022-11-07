@@ -29,22 +29,14 @@ public class UserLogic: IUserLogic
         return created;
     }
 
-    public bool GetAsync(SearchUserParametersDto searchParameters)
+    public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
     {
-        
-        if (userDao.GetAsync(searchParameters) == null)
-        {
-            Console.WriteLine("NO");
-        }
-        else
-        {
-            Console.WriteLine("YES");
+        return userDao.GetAsync(searchParameters);
+    }
 
-        }
-
-        Console.WriteLine(userDao.GetAsync(searchParameters));
-
-        return userDao.GetAsync(searchParameters)==null;
+    public Task<User> GetByUserNameAsync(string userName)
+    {
+        return userDao.GetByUsernameAsync(userName);
     }
 
     private static void ValidateData(UserCreationDto userToCreate)

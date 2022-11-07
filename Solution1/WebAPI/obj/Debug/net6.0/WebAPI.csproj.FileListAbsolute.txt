@@ -86,3 +86,5 @@ C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\WebAPI\
 C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\HttpClients.dll
+C:\Users\Dávid\RiderProjects\Assignment1\Try2\DNP_Assignment1\Solution1\WebAPI\bin\Debug\net6.0\HttpClients.pdb
