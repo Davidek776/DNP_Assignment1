@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XE3vn9eQdP8JHe+P/bf4e6PuJ8d/jI5lAjHkIYxU1Ulwr0QqYJLUC2nbp4Excz92ZdeUyS5A5BKTCOL9M3LP7A==",
+  "dgSpecHash": "6cG7zIlyRkUP08Mz37vYoiGDKC7P9kseJ4pyXwEBQv4z6njsyUXocbC591Pcz4Z5CID1IGlf6AslssIKycRWtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Try2\\DNP_Assignment1\\Solution1\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Almost Finishing\\DNP_Assignment1\\Solution1\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dávid\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.10\\microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
     "C:\\Users\\Dávid\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
