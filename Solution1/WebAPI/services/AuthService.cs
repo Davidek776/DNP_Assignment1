@@ -43,23 +43,23 @@ public class AuthService : IAuthService
 
   
 
-    public Task RegisterUser(User user)
+    public Task RegisterUser(UserRegisterDto userRegisterDto)
     {
 
-        // if (string.IsNullOrEmpty(user.UserName))
-        // {
-        //     throw new ValidationException("Username cannot be null");
-        // }
-        //
-        // if (string.IsNullOrEmpty(user.password))
-        // {
-        //     throw new ValidationException("Password cannot be null");
-        // }
-        // // Do more user info validation here
-        //
-        // // save to persistence instead of list
-        //
-        // users.Add(user);
+        if (string.IsNullOrEmpty(userRegisterDto.UserName))
+        {
+            throw new ValidationException("Username cannot be null");
+        }
+        
+        if (string.IsNullOrEmpty(userRegisterDto.password))
+        {
+            throw new ValidationException("Password cannot be null");
+        }
+        // Do more user info validation here
+        
+        // save to persistence instead of list
+        UserCreationDto userCreationDto = new UserCreationDto(userRegisterDto.UserName, userRegisterDto.password);
+        userService.Create(userCreationDto);
         
         return Task.CompletedTask;
     }

@@ -29,6 +29,11 @@
       "Id": 6,
       "UserName": "string",
       "password": "string"
+    },
+    {
+      "Id": 7,
+      "UserName": "davidkocur",
+      "password": "kocur"
     }
   ],
   "Posts": [
