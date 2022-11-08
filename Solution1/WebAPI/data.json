@@ -29,6 +29,11 @@
       "Id": 6,
       "UserName": "string",
       "password": "string"
+    },
+    {
+      "Id": 7,
+      "UserName": "davidkocur",
+      "password": "kocur"
     }
   ],
   "Posts": [
@@ -151,6 +156,11 @@
       "Id": 24,
       "title": "bmw",
       "body": "lorem"
+    },
+    {
+      "Id": 25,
+      "title": "david",
+      "body": "kocur"
     }
   ]
 }

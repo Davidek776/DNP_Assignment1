@@ -11,9 +11,13 @@ public class AuthService : IAuthService
 {
 
     private IEnumerable<User> users;
-  
-    private IUserService userService = new UserHttpClient(new HttpClient());
-    
+
+    private readonly IUserService userService = new UserHttpClient(new HttpClient());
+
+    // public AuthService(IUserService userService)
+    // {
+    //     this.userService = userService;
+    // }
     
 
     public async Task<User> ValidateUser(string username, string password)
