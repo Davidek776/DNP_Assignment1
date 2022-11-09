@@ -4,6 +4,16 @@
       "Id": 1,
       "UserName": "david",
       "password": "davidpassword"
+    },
+    {
+      "Id": 2,
+      "UserName": "admin",
+      "password": "adminpassword"
+    },
+    {
+      "Id": 3,
+      "UserName": "user",
+      "password": "userpassword"
     }
   ],
   "Posts": [
@@ -31,6 +41,11 @@
       "Id": 5,
       "title": "Climate is changing",
       "body": "Lets see here the graphs"
+    },
+    {
+      "Id": 6,
+      "title": "Fish",
+      "body": "Fish is big"
     }
   ]
 }

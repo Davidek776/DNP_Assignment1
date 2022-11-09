@@ -28,3 +28,18 @@ C:\Users\Dávid\RiderProjects\Assignment1\Almost Finishing\DNP_Assignment1\Solut
 C:\Users\Dávid\RiderProjects\Assignment1\Almost Finishing\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\refint\HttpClients.dll
 C:\Users\Dávid\RiderProjects\Assignment1\Almost Finishing\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\HttpClients.pdb
 C:\Users\Dávid\RiderProjects\Assignment1\Almost Finishing\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\ref\HttpClients.dll
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\bin\Debug\net6.0\HttpClients.deps.json
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\bin\Debug\net6.0\HttpClients.dll
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\bin\Debug\net6.0\HttpClients.pdb
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\bin\Debug\net6.0\Domain.dll
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\bin\Debug\net6.0\Domain.pdb
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\HttpClients.csproj.AssemblyReference.cache
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\HttpClients.AssemblyInfoInputs.cache
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\HttpClients.AssemblyInfo.cs
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\HttpClients.csproj.CoreCompileInputs.cache
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\HttpClients.csproj.CopyComplete
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\HttpClients.dll
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\refint\HttpClients.dll
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\HttpClients.pdb
+C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\HttpClients\obj\Debug\net6.0\ref\HttpClients.dll

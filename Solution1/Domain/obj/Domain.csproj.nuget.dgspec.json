@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Almost Finishing\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Almost Finishing\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj": {
+    "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Almost Finishing\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Almost Finishing\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Dávid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Almost Finishing\\DNP_Assignment1\\Solution1\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dávid\\AppData\\Roaming\\NuGet\\NuGet.Config"
