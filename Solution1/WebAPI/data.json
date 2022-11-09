@@ -2,205 +2,50 @@
   "Users": [
     {
       "Id": 1,
-      "UserName": "sssssstring",
-      "password": "strinss"
+      "UserName": "david",
+      "password": "davidpassword"
     },
     {
       "Id": 2,
-      "UserName": "sssssstrsing",
-      "password": "strinss"
+      "UserName": "admin",
+      "password": "adminpassword"
     },
     {
       "Id": 3,
-      "UserName": "strinwwg",
-      "password": "striwwng"
-    },
-    {
-      "Id": 4,
-      "UserName": "david",
-      "password": "string"
-    },
-    {
-      "Id": 5,
-      "UserName": "alpha",
-      "password": "string"
-    },
-    {
-      "Id": 6,
-      "UserName": "string",
-      "password": "string"
-    },
-    {
-      "Id": 7,
-      "UserName": "davidkocur",
-      "password": "kocur"
-    },
-    {
-      "Id": 8,
-      "UserName": "alojz",
-      "password": "franek"
-    },
-    {
-      "Id": 9,
-      "UserName": "albin",
-      "password": "bulak"
-    },
-    {
-      "Id": 10,
-      "UserName": "abc",
-      "password": "string"
-    },
-    {
-      "Id": 11,
-      "UserName": "marek",
-      "password": "b"
-    },
-    {
-      "Id": 12,
-      "UserName": "anton",
-      "password": "durcak"
-    },
-    {
-      "Id": 13,
-      "UserName": "alex",
-      "password": "c"
+      "UserName": "user",
+      "password": "userpassword"
     }
   ],
   "Posts": [
     {
       "Id": 1,
-      "title": "ssssss",
-      "body": "aaaaaaa"
+      "title": "Fishing topic",
+      "body": "lorem ipsum"
     },
     {
       "Id": 2,
-      "title": "a",
-      "body": "b"
+      "title": "CarTopic",
+      "body": "Cars are fast"
     },
     {
       "Id": 3,
-      "title": "a",
-      "body": "b"
+      "title": "TruckTopic",
+      "body": "Tracks are heavy"
     },
     {
       "Id": 4,
-      "title": "a",
-      "body": "b"
+      "title": "Hunting in the forest",
+      "body": "Forests are...."
     },
     {
       "Id": 5,
-      "title": "test",
-      "body": "test1"
+      "title": "Climate is changing",
+      "body": "Lets see here the graphs"
     },
     {
       "Id": 6,
-      "title": "a",
-      "body": "b"
-    },
-    {
-      "Id": 7,
-      "title": "1",
-      "body": "2"
-    },
-    {
-      "Id": 8,
-      "title": null,
-      "body": null
-    },
-    {
-      "Id": 9,
-      "title": null,
-      "body": null
-    },
-    {
-      "Id": 10,
-      "title": null,
-      "body": null
-    },
-    {
-      "Id": 11,
-      "title": null,
-      "body": null
-    },
-    {
-      "Id": 12,
-      "title": null,
-      "body": null
-    },
-    {
-      "Id": 13,
-      "title": null,
-      "body": null
-    },
-    {
-      "Id": 14,
-      "title": "aaaa",
-      "body": "aaaa"
-    },
-    {
-      "Id": 15,
-      "title": "aaaa",
-      "body": "aaaa"
-    },
-    {
-      "Id": 16,
-      "title": null,
-      "body": null
-    },
-    {
-      "Id": 17,
-      "title": null,
-      "body": null
-    },
-    {
-      "Id": 18,
-      "title": null,
-      "body": null
-    },
-    {
-      "Id": 19,
-      "title": null,
-      "body": null
-    },
-    {
-      "Id": 20,
-      "title": "ddddddddddd",
-      "body": "a"
-    },
-    {
-      "Id": 21,
-      "title": "alojz ",
-      "body": "hlina"
-    },
-    {
-      "Id": 22,
-      "title": "brm",
-      "body": "a"
-    },
-    {
-      "Id": 23,
-      "title": "aaaaa",
-      "body": "a"
-    },
-    {
-      "Id": 24,
-      "title": "bmw",
-      "body": "lorem"
-    },
-    {
-      "Id": 25,
-      "title": "david",
-      "body": "kocur"
-    },
-    {
-      "Id": 26,
-      "title": "bmw",
-      "body": "320"
-    },
-    {
-      "Id": 27,
-      "title": "zetor",
-      "body": "52"
+      "title": "Fish",
+      "body": "Fish is big"
     }
   ]
 }
