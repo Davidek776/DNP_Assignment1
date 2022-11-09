@@ -54,6 +54,16 @@
       "Id": 11,
       "UserName": "marek",
       "password": "b"
+    },
+    {
+      "Id": 12,
+      "UserName": "anton",
+      "password": "durcak"
+    },
+    {
+      "Id": 13,
+      "UserName": "alex",
+      "password": "c"
     }
   ],
   "Posts": [
@@ -181,6 +191,11 @@
       "Id": 25,
       "title": "david",
       "body": "kocur"
+    },
+    {
+      "Id": 26,
+      "title": "bmw",
+      "body": "320"
     }
   ]
 }
