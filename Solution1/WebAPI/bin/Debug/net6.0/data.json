@@ -14,6 +14,11 @@
       "Id": 3,
       "UserName": "user",
       "password": "userpassword"
+    },
+    {
+      "Id": 4,
+      "UserName": "test",
+      "password": "testpassword"
     }
   ],
   "Posts": [
@@ -46,6 +51,16 @@
       "Id": 6,
       "title": "Fish",
       "body": "Fish is big"
+    },
+    {
+      "Id": 7,
+      "title": "Animal topic",
+      "body": "Animals are super"
+    },
+    {
+      "Id": 8,
+      "title": "ddd",
+      "body": "d"
     }
   ]
 }

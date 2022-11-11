@@ -2,7 +2,7 @@
 
 public class UserCreationDto
 {   
-    public int Id { get; }
+    // public int Id { get; }
     public string UserName { get;}
     public string password { get;}
 

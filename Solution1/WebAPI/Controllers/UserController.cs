@@ -47,20 +47,7 @@ public class UserController: ControllerBase
         }
     }
     
-    // [HttpGet("byUsername")]
-    // public async Task<ActionResult<User>> GetByUsername([FromQuery] string? userName)
-    // {
-    //     try
-    //     {
-    //         User result = await userLogic.GetByUserNameAsync(userName);
-    //         return Ok(result);
-    //     }
-    //     catch (Exception e)
-    //     {
-    //         Console.WriteLine(e);
-    //         return StatusCode(500, e.Message);
-    //     }
-    // }
+ 
     
 
     

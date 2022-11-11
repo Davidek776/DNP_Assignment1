@@ -46,3 +46,15 @@ C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\Domai
 C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\refint\Domain.dll
 C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Domain\obj\Debug\net6.0\ref\Domain.dll

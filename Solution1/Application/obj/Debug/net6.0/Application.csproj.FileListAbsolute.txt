@@ -58,3 +58,18 @@ C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\Appli
 C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\refint\Application.dll
 C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\Application.pdb
 C:\Users\Dávid\RiderProjects\Assignment1\Finish\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\ref\Application.dll
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\bin\Debug\net6.0\Application.deps.json
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\bin\Debug\net6.0\Application.dll
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\bin\Debug\net6.0\Application.pdb
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\bin\Debug\net6.0\Domain.dll
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\bin\Debug\net6.0\Domain.pdb
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\Application.dll
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\refint\Application.dll
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\Application.pdb
+C:\Users\Dávid\Desktop\ALL\Portfolio\API project\DNP_Assignment1\Solution1\Application\obj\Debug\net6.0\ref\Application.dll
