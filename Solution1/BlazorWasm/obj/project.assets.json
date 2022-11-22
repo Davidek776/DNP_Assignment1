@@ -1652,16 +1652,16 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dávid\\.nuget\\packages\\": {}
+    "C:\\Windows\\.nuget\\packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dávid\\Desktop\\ALL\\Portfolio\\API project\\DNP_Assignment1\\Solution1\\BlazorWasm\\BlazorWasm.csproj",
+      "projectUniqueName": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\BlazorWasm\\BlazorWasm.csproj",
       "projectName": "BlazorWasm",
-      "projectPath": "C:\\Users\\Dávid\\Desktop\\ALL\\Portfolio\\API project\\DNP_Assignment1\\Solution1\\BlazorWasm\\BlazorWasm.csproj",
-      "packagesPath": "C:\\Users\\Dávid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dávid\\Desktop\\ALL\\Portfolio\\API project\\DNP_Assignment1\\Solution1\\BlazorWasm\\obj\\",
+      "projectPath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\BlazorWasm\\BlazorWasm.csproj",
+      "packagesPath": "C:\\Windows\\.nuget\\packages",
+      "outputPath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\BlazorWasm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dávid\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1676,11 +1676,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Dávid\\Desktop\\ALL\\Portfolio\\API project\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Dávid\\Desktop\\ALL\\Portfolio\\API project\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj"
+            "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Dávid\\Desktop\\ALL\\Portfolio\\API project\\DNP_Assignment1\\Solution1\\HttpClients\\HttpClients.csproj": {
-              "projectPath": "C:\\Users\\Dávid\\Desktop\\ALL\\Portfolio\\API project\\DNP_Assignment1\\Solution1\\HttpClients\\HttpClients.csproj"
+            "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\HttpClients\\HttpClients.csproj": {
+              "projectPath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\HttpClients\\HttpClients.csproj"
             }
           }
         }

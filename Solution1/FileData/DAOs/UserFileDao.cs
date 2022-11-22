@@ -49,6 +49,9 @@ public class UserFileDao: IUserDao
         );
         return Task.FromResult(existing);
     }
-    
-    
+
+    public Task<User?> GetByIdAsync(int id)
+    {
+        throw new NotImplementedException();
+    }
 }

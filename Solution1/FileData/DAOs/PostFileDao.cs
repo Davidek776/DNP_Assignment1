@@ -30,6 +30,11 @@ public class PostFileDao : IPostDao
         return Task.FromResult(post);
     }
 
+    public Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto searchParameters)
+    {
+        throw new NotImplementedException();
+    }
+
     public Task<IEnumerable<Post>> GetAllPostsAsync()
     {
         IEnumerable<Post> posts = context.Posts.AsEnumerable();
