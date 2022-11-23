@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gWEatUeEQi3HwxAPVVB6WuwBNu4nyt0QskvrA529h3hGFL5M45h2UJ9vKpSLR7NwpbLGDab8GAMfKY2TY0wRIQ==",
+  "dgSpecHash": "GzBrnr12sT94HjM1Y6B5Y0Hy3t4j5A9cZ/wV6BO1x58HgYytzKjjtI3h6XEovLfCoacyOV5XVEQtTYOj5Gc18g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\DNP_Assignment1\\Solution1\\EfcDataAccess\\EfcDataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Dávid\\RiderProjects\\Assignment1\\Finish\\Only test\\DNP_Assignment1\\Solution1\\EfcDataAccess\\EfcDataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Windows\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Windows\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
