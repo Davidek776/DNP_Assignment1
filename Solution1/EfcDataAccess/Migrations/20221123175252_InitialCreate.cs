@@ -16,7 +16,8 @@ namespace EfcDataAccess.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    title = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false)
+                    title = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
+                    body = table.Column<string>(type: "TEXT", maxLength: 150, nullable: false)
                 },
                 constraints: table =>
                 {

@@ -10,7 +10,7 @@ public class DBContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source = ../EfcDataAccess/PostsUsers.db");
+        optionsBuilder.UseSqlite("Data Source = ../EfcDataAccess/PostsUsersDB.db");
     }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -18,5 +18,6 @@ public class DBContext : DbContext
         modelBuilder.Entity<Post>().HasKey(post => post.Id);
         modelBuilder.Entity<User>().HasKey(user => user.Id);
         modelBuilder.Entity<Post>().Property(post => post.title).HasMaxLength(50);
+     
     }
 }
