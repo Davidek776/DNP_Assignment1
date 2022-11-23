@@ -38,4 +38,6 @@ public class PostLogic : IPostLogic
 
         return new PostBasicDto(post.Id, post.title, post.body);
     }
+
+ 
 }
